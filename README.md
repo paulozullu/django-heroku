@@ -41,7 +41,7 @@ Minimal configuration to host a Django project at Heroku
 * SECRET_KEY = config('SECRET_KEY')
 * DEBUG = config('DEBUG', default=False, cast=bool)
 
-## Configuring the Daba Base
+## Configuring the Data Base
 * pip install dj-database-url
 
 ### Settings.py
@@ -67,7 +67,7 @@ pip install dj-static
 ## Create a requirements-dev.txt
 pip freeze > requirements-dev.txt
 
-## Create a file requirements.txt file and include reference to previows file and add two more requirements
+## Create a file requirements.txt file and include reference to previous file and add two more requirements
 * -r requirements-dev.txt
 * gunicorn
 * psycopg2
